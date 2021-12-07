@@ -1,0 +1,24 @@
+body{
+    
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  filter: blur(0px);
+}
+
+.bg{
+    position: absolute;
+    background: url('https://img.nbc.com/sites/nbcunbc/files/scet/photos/22/12588/Mose.jpg?impolicy=nbc_com&imwidth=1080&imdensity=1');
+    top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+.loader{
+    position: absolute;
+    
+}
+
